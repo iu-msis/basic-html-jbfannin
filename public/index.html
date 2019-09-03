@@ -1,44 +1,49 @@
 <!doctype html>
 <html>
 <head>
-  <title>Travel Blog</title>
-  <link rel="stylesheet" href="/css/site.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!--Compiled and minified CSS-->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!--jQuery CDN-->
-  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-  <!--Compiled and minified JavaScript-->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <h1>Travel Blog<h1>
-    <nav class="row navbar navbar-default">
-         <div class="navbar-header pull-left">
-               <button class="navbar-toggle" data-toggle="collapse" data-target="#menu">
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-               </button>
-          </div>
-          <div class="collapse navbar-collapse" id="menu">
-              <ul class="nav navbar-nav">
-                  <li>
-                      <a href="index.html">Home</a>
-                  </li>
-                  <li>
-                      <a href="index2.html">About Me</a>
-                  </li>
-                  <li>
-                      <a href="index3.html">Books</a>
-                  </li>
-              </ul>
-              </div>
-          </nav>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+      <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+              <a class="navbar-brand" href="index.html">Travel Blog</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="index2.html">About Me</a></li>
+                <li><a href="index3.html">Library</a></li>
+              </ul>
+            </div>
+          </div>
+      </nav>
 </head>
 <body>
-
-  <div class="container">
-  <!-- Content here -->
+  <div class="banner">
+    <image class="banner-image" src="images/photo-1478562672393-2412e5b9d634.jpg" alt="Austin Neill, Unsplash">
   </div>
-<p>Your content goes here.</p>
+  <div class="jumbotron">
+  <h1 class="display-3">Hello, world!</h1>
+  <hr class="my-2">
+  <p>Welcome to my travel blog! Follow my journey as I navigate and maneuver around the world while adding on to my reading list along the way!</p>
+  <br>
+  <br>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="index2.html" role="button">About Me</a>
+    <a class="btn btn-primary btn-lg" href="index3.html" role="button">Library</a>
+  </p>
+  </div>
+
 </body>
 </html>

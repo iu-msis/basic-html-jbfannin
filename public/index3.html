@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/stylesheet.css">
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Travel Blog</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="index2.html">About Me</a></li>
+              <li><a href="index3.html">Library</a></li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+</head>
+
+<body>
+  <div class="banner">
+    <image class="banner-image" src="images/books.jpg" alt="Library book">
+  </div>
+
+  <h1>Reading List</h1>
+  <table class="table">
+  <thead class="thead-dark">
+    <tr>
+      <th>#</th>
+      <th>Title</th>
+      <th>Author(s)</th>
+      <th>Year Published</th>
+      <th>Publisher</th>
+      <th>Page Count</th>
+      <th>MSRP</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>The Kite Runner</td>
+      <td>Khaled Hosseini</td>
+      <td>2003</td>
+      <td>Riverhead Books</td>
+      <td>372</td>
+      <td>$13.95</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Beautiful Chaos</td>
+      <td>R.M. Drake</td>
+      <td>2014</td>
+      <td>Vintage Wild</td>
+      <td>238</td>
+      <td>$18.00</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>The Alchemist</td>
+      <td>Paulo Coelho</td>
+      <td>1995</td>
+      <td>HarperTorch</td>
+      <td>163</td>
+      <td>$11.99</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>One Word That Will Change Your Name</td>
+      <td>Jon Gordon, Dan Britton, Jimmy Page</td>
+      <td>2012</td>
+      <td>Wiley</td>
+      <td>115</td>
+      <td>$12.33</td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<hr>
+<br>
+<h2>Add to Reading List<h2>
+<form>
+  <div class="form-group">
+    <h4><label for="title">Title</label><h4>
+    <input type="text" class="form-control" id="title" placeholder="Title">
+  </div>
+  <div class="form-group">
+    <h4><label for="author">Author(s)</label><h4>
+    <input type="text" class="form-control" id="author" placeholder="Author(s)">
+  </div>
+  <div class="form-group">
+    <h4><label for="yearPublished">Year Published</label><h4>
+    <input type="text" class="form-control" id="yearPublished" placeholder="Year Published">
+  </div>
+  <div class="form-group">
+    <h4><label for="publisher">Publisher</label><h4>
+    <input type="text" class="form-control" id="publisher" placeholder="Publisher">
+  </div>
+  <div class="form-group">
+    <h4><label for="pageCount">Page Count</label><h4>
+    <input type="text" class="form-control" id="pageCount" placeholder="Page Count">
+  </div>
+  <div class="form-group">
+    <h4><label for="msrp">MSRP</label><h4>
+    <input type="text" class="form-control" id="msrp" placeholder="MSRP">
+  </div>
+   <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</body>
+
+</html>

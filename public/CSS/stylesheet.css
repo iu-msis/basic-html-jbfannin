@@ -1,0 +1,15 @@
+
+.banner{
+  width: 100%;
+  display: block;
+}
+
+.banner > .banner-image{
+  width: 100%;
+  display: inline-block;
+}
+
+
+body {
+background-color: white;
+}
